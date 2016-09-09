@@ -1,0 +1,181 @@
+body {
+    font-family:microsoft YaHei,Arial;
+}
+h2 {
+    font-weight:bold;
+    margin-bottom:25px;
+    color:#666;
+}
+p {
+    line-height:30px;
+    font-size:1.2em;
+    color:#888;
+}
+
+/*顶部导航*/
+.navbar-default {
+    background: #fff;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(50,50,50,0.2);
+}
+.navbar-default .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Microsoft YaHei;
+    color: #40d2b1;
+    height:70px;
+    line-height:35px;
+}
+.navbar-toggle {
+    margin-top:16px;
+}
+.navbar-nav>li>a {
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color:#40d2b1;
+}
+.navbar-toggle {
+    border-color: #40D2B1;
+}
+.navbar-toggle .icon-bar {
+    background-color: #40D2B1;
+}
+
+/*第一屏*/
+#home {
+    background:url(../img/bj.jpg);
+    background-size:cover;
+    margin-top:70px;
+    width:100%;
+    text-align:center;
+}
+.lvjing {
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.88);
+    padding:60px 0;
+}
+#home h2, #home p {
+    color:#fff;
+}
+#home img {
+    margin-top:30px;
+}
+
+/*第二屏*/
+#bbs {
+    padding:60px 0;
+    text-align:center;
+}
+#bbs .col-md-4 {
+    padding:15px 0;
+}
+#bbs .col-md-4:hover {
+    background:#eee;
+}
+#bbs a {
+    color:#333;
+    text-decoration:none;
+}
+#bbs img {
+    margin:0 auto;
+}
+#bbs h3{
+    font-weight:bold;
+}
+
+/*第三屏，第四屏*/
+#html5 {
+    padding:60px 0;
+    background:#f8f8f8;
+}
+#bootstrap {
+    padding:60px 0;
+}
+.glyphicon-grain {
+    background: #40D2B1;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    margin-right: 10px;
+}
+
+/*第五屏*/
+#course {
+    background:#f8f8f8;
+    padding:60px 0;
+    text-align:center;
+}
+#course img {
+    margin:30px 0 10px;
+    width:100%;
+}
+#course .btn-success {
+    color: #40D2B1;
+    background-color: #fff;
+    border-color: #4cae4c;
+    padding:6px 20px;
+    transition:0.3s;
+}
+#course .btn-success:hover {
+    color:#fff;
+    background-color: #40D2B1;
+    font-weight:bold;
+}
+
+/*第六屏*/
+#app {
+    padding:60px 0;
+}
+.btn-default {
+    color: #fff;
+    background-color: #40D2B1;
+    margin:10px 5px;
+    padding:6px 20px;
+    transition:0.3s;
+}
+.btn-default:hover {
+    color:#fff;
+    background-color:#098A6D;
+
+}
+
+/*第七屏*/
+#contact {
+    background:url(../img/bj.jpg);
+    background-size:cover;
+}
+#contact h2, #contact p {
+    color:#fff;
+}
+#contact form {
+    margin:30px 0;
+}
+#contact input, #contact textarea {
+    margin-top:20px;
+}
+#contact input[type="submit"] {
+    background:#40d2b1;
+    color:#fff;
+    font-size:18px;
+    line-height:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+#contact input[type="submit"]:hover {
+    background:#3A8C79;
+}
+
+/*footer*/
+footer {
+    margin:30px 0;
+    text-align:center;
+}
