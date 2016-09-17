@@ -52,11 +52,10 @@ p {
     background-size: cover;
     margin-top: 70px;
     width: 100%;
-	height:800px;
     text-align: center;
 }
 .bootstrap {
-	display:none;
+   visibility: hidden;
 }
 .lvjing {
     width: 100%;
