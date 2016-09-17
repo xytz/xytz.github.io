@@ -12,5 +12,8 @@ $(function(){
     });
     //使用wow.min.js
     new WOW().init();
-
+	//解决第一屏闪退bug 
+	setTimeout(function(){
+		$(".bootstrap").css("display","block");
+	},300);
 })
